@@ -3,7 +3,9 @@ def outer():
     a=40
     def inner():
         b=80
+        a=150
         print("inner function")
         print("still in inner function, a is %d, b is %d"%(a,b))
         print("exiting inner function")
-    print("Continuing outer function");
+    inner()
+    print("Continuing outer function, a is %d"%(a));
