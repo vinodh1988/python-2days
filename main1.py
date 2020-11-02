@@ -1,5 +1,6 @@
 from functional import callable,callable2
 
+
 #function as a parameter to another function
 #callback functions in python
 #any function which is passed as parameter to another function will usually be called back

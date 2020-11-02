@@ -1,7 +1,11 @@
+global_state = "global variable"
 def outer(param):
     print("In outer function")
+
     a=40
     state=param
+    global global_state
+    global_state = param
     #inner function definition
     def inner():
         
@@ -13,5 +17,10 @@ def outer(param):
         print("exiting inner function")
     # again in outer
     print("Continuing outer function, a is %d"%(a));
+    #function as return type
     return inner
+
+def something():
+    print(global_state);
    
+
