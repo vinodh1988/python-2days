@@ -10,3 +10,6 @@ def temp(data):
 
 def caller():
     callfun(temp);
+    callfun(lambda x:"lambda fun processed"+x);
+
+
