@@ -1,6 +1,7 @@
 from functional import callable,callable2
 
-
+#function as a parameter to another function
+#callback functions in python
 def myprocess(p):
     print("Pre processing is being done")
     p()
@@ -9,3 +10,10 @@ def myprocess(p):
 myprocess(callable)
 
 myprocess(callable2)
+
+def temp():
+    print("Temporary definition")
+
+myprocess(temp)
+
+
