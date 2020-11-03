@@ -1,1 +1,1 @@
-from generators.gene import gene
+from generators.gene import gene,infinite

@@ -8,4 +8,10 @@ def gene():
          time.sleep(2)
          i=i+1
 
+def infinite():
+    while True:
+        yield random.randint(1,10000)
+        print('continuing')
+        
+
 
