@@ -1,0 +1,5 @@
+file = open("d:/data.json", "r")  
+print(file.read())
+print("-----------------------------------------------")
+file.seek(0)
+print(file.read(450))
