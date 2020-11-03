@@ -1,0 +1,1 @@
+from decorators.firstone import mydec
