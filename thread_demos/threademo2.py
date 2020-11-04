@@ -17,7 +17,7 @@ class SharedResource:
         print(threading.currentThread()," beforeProcessing ",self.state)
         time.sleep(1)
         print(threading.currentThread()," processed state ",self.state)
-        self.lock.release()
+        
         print(threading.currentThread(), 'released the lock')
 
 def call(shared):
